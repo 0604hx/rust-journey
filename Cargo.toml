@@ -1,0 +1,3 @@
+[workspace]
+members = [ "commons/logger","j01_number_game"]
+resolver = "2"
