@@ -1,0 +1,12 @@
+[package]
+name = "grep"
+version = "25.7.28"
+edition = "2021"
+
+description = "Grep 程序简易版，请使用 grep -h 查看使用说明"
+authors = ["集成显卡"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+clap={ version = "4.5.39", features = ["derive"]  }
+colored = "3"

@@ -6,7 +6,7 @@ fn main() {
     println!("欢迎来到 Rust 版猜数字游戏");
     //创建随机数
     let secret = rand::thread_rng().gen_range(1..=100);
-    let mut limit = 5;
+    let mut limit = 8;
 
     println!("游戏开始（可尝试 {limit} 次），请输入你猜测的数字：");
     loop {
